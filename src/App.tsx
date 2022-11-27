@@ -5,12 +5,12 @@ const App = ()=> {
   return (
     <div className="App">
         <div>
-            <ol>
+            <ul>
                 <li>HTML</li>
                 <li>CSS</li>
                 <li>JS</li>
                 <li>REACT</li>
-            </ol>
+            </ul>
         </div>
     </div>
   );
