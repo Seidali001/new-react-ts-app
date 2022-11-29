@@ -1,3 +1,7 @@
+header {
+  background-color: dimgrey;
+}
+
 .Header {
   text-align: center;
   text-decoration: none;
@@ -5,14 +9,15 @@
 
 .Header a {
   text-decoration: none;
+  color: #fff;
 }
 
 .Header ul {
-  list-style: none;
+  margin: 0;
   padding: 15px;
   display: flex;
-  justify-content: space-evenly;
-  align-items: center;
+  justify-content: space-around;
+  background-color: #000000;
 }
 
 ul li {
@@ -20,14 +25,21 @@ ul li {
 }
 
 .Navbar a {
-  color: #000000;
-  padding: 5px;
   text-decoration: none;
   font-weight: bold;
+  color: #fff;
+  display: block;
 }
-
+.Navbar {
+  padding: 0;
+  margin: 0;
+}
 .Navbar li {
   display: block;
+  padding: 60px;
+  border-bottom: 1px solid #666;
+  background-color: #949494;
+  width: 40px;
 }
 
 
