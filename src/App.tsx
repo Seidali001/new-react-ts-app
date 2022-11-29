@@ -1,5 +1,8 @@
 import React from 'react';
 import './App.css';
+import Header from "./Header";
+import Input from "./Input";
+import Navbar from "./Navbar";
 
 const App = ()=> {
   return (
@@ -8,40 +11,6 @@ const App = ()=> {
         <Navbar/>
     </div>
   );
-}
-
-const Header = ()=> {
-    return (
-        <div className="Header">
-            <ul>
-                <li><a href="#">News</a></li>
-                <li><a href="#">Tests</a></li>
-                <Input/>
-            </ul>
-        </div>
-    )
-}
-
-const Input = ()=> {
-    return (
-        <form>
-            <input/>
-                <button>Search</button>
-        </form>
-        )
-}
-
-const Navbar = ()=> {
-    return (
-    <div>
-      <ul className="Navbar">
-        <li><a href="#">HTML</a></li>
-        <li><a href="#">CSS</a></li>
-        <li><a href="#">JS</a></li>
-        <li><a href="#">REACT</a></li>
-      </ul>
-    </div>
-    );
 }
 
 export default App;
